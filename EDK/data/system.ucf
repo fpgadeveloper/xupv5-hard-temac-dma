@@ -268,6 +268,10 @@ Net fpga_0_Hard_Ethernet_MAC_GMII_RX_CLK_0_pin LOC=H17  |  IOSTANDARD = LVCMOS25
 Net fpga_0_Hard_Ethernet_MAC_MDC_0_pin LOC=H19  |  IOSTANDARD = LVCMOS25;
 Net fpga_0_Hard_Ethernet_MAC_MDIO_0_pin LOC=H13  |  IOSTANDARD = LVCMOS25;
 Net fpga_0_Hard_Ethernet_MAC_PHY_MII_INT_pin LOC=H20  |  IOSTANDARD = LVCMOS25  |  TIG;
+Net fpga_0_RS232_Uart_1_RX_pin LOC = AG15  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_RS232_Uart_1_TX_pin LOC = AG20  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_RS232_Uart_2_RX_pin LOC=G10  |  IOSTANDARD = LVCMOS33;
+Net fpga_0_RS232_Uart_2_TX_pin LOC=F10  |  IOSTANDARD = LVCMOS33;
 Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin;
 TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
 Net fpga_0_clk_1_sys_clk_pin LOC = AH15  |  IOSTANDARD=LVCMOS33;
